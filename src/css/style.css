@@ -1,11 +1,11 @@
 :root {
-    --primary-color: #b4cb1a; /* Azul metálico, lembra carros esportivos */
-    --secondary-color: #e70c0c; /* Cinza grafite, sofisticado e moderno */
-    --accent-color: #ffd700; /* Dourado vibrante, estilo acabamentos premium */
-    --background-color: #161212; /* Preto fosco, elegante e luxuoso */
-    --text-color: #e0e0e0; /* Cinza claro para boa leitura no fundo escuro */
-    --button-color: #ff0000; /* Vermelho esportivo, chama atenção */
-    --button-hover-color: hsl(0, 100%, 65%); /* Tom mais escuro de vermelho para hover */
+    --primary-color: #f9c61e; 
+    --secondary-color: #e70c0c;
+    --accent-color: #ffd700; 
+    --background-color: #161212;
+    --text-color: #e0e0e0; 
+    --button-color: #ff0000;
+    --button-hover-color: hsl(0, 100%, 65%);
 
 }
 
@@ -114,11 +114,10 @@ body {
 .home .hero .text2{
     font-size: 7rem;
     width: 35rem;
-    background:var(--primary-color);
+    background: rgba(249, 198, 30, 0.8);    
     padding: 1rem 2rem;
     text-align: center;
     margin-top: 1rem;
-    opacity: .8;
     color: var(--text-color);
 }
 
